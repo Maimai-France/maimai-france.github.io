@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Bienvenue sur Maimai France !</h1>
+	<p>Ce site est en pleine construction, ne faites pas attention aux cables qui pendent du plafond :D</p>
+
+    <h2>Les salles équipées</h2>
+    <ul>
+        <li><a href="salles/asn-geekroom.html">Asnières-sur-seine - Geek Room</a></li>
+        <li><a href="salles/lil-atomcity.html">Lille - Atom City</a></li>
+        <li><a href="salles/lyo-gamespirit.html">Lyon - Gamespirit</a></li>
+        <li><a href="salles/mtp-alphanef.html">Montpellier - Alphanef</a></li>
+    </ul>
+
+    <h2>Les derniers tournois</h2>
+    <ul>
+        <!--<li>13 Novembre 2021 - Maimai tournament #1 @ Alphanef</li>-->
+        {% for page in PAGES if page.meta.template == 'tournoi.html' %}
+            <li><a href="{{ page.href }}">{{ page.meta.tdate }} - {{ page.meta.tname }} @ {{ page.meta.tplace }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %} 
+<a href="/index.html" class="btn btn-light" role="button"><img src="/img/chevron-left.svg" alt="Left arrow" width="24" height="24"
+	class="d-inline-block align-text-middle"> Page d'accueil</a><br><br>
+<div class="card">
+	<div class="card-body">
+		<h2 class="card-title">{% block nom %} {% endblock %}</h2>
+		<br>
+		<div class="row">
+			<div class="col">
+				<h5><i class="twa twa-compass"></i> S'y rendre</h5>
+				{% block adresse %} {% endblock %}
+				<br>
+				<br>
+				<h5><i class="twa twa-one-o-clock"></i> Horaires d'ouverture</h5>
+				{% block horaires %} {% endblock %}
+				<br>
+				<br>
+				<h5><i class="twa twa-fast-forward-button"></i> Une partie rapide ?</h5>
+				{% block quickprice %} {% endblock %}
+			</div>
+			<div class="col">
+				{% block map %} {% endblock %}
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<div class="card-header">
+						<i class="twa twa-information"></i> A propos de la salle
+					</div>
+					<div class="card-body">
+						{% block presentation %} {% endblock %}
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+					<div class="card-header">
+						<i class="twa twa-purse"></i> Les tarifs
+					</div>
+					<div class="card-body">
+						{% block tarifs %} {% endblock %}
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col">
+				<div class="card">
+					<div class="card-header">
+						<i class="twa twa-joystick"></i> Informations sur la borne
+					</div>
+					<div class="card-body">
+						<div class="row justify-content-center">
+							<div class="col text-center">
+								<p><i class="twa twa-5x twa-desktop-computer"></i></p>
+								<p>{% block version %} {% endblock %}</p>
+							</div>
+							<div class="col text-center">
+								<p><i class="twa twa-5x twa-musical-notes"></i></p>
+								<p>{% block musiques %} {% endblock %}</p>
+							</div>
+							<div class="col text-center">
+								<p><i class="twa twa-5x twa-flag-united-kingdom"></i></p>
+								<p>{% block langue %} {% endblock %}</p>
+							</div>
+						</div>
+						<br>
+						<br>
+						<div class="row justify-content-center">
+							<div class="col text-center">
+								<p><i class="twa twa-5x twa-globe-showing-europe-africa block"></i></p>
+								<p>{% block online %} {% endblock %}</p>
+							</div>
+							<div class="col text-center">
+								<p><i class="twa twa-5x twa-gloves"></i></p>
+								<p>{% block gants %} {% endblock %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
