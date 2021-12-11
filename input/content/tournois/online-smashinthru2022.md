@@ -8,7 +8,7 @@ tthread: 1469642385374257155
 ---
 <h3>Soumettre vos scores</h3>
 <p>
-Envoyez-nous votre score (une photo des deux écrans avec le score total, le pourcentage et le combo bien visibles), avec votre pseudonyme et la salle ou vous avez joué, sur l'un des deux canaux de communication suivants: 
+Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui en haut- avec le score total, le pourcentage et le combo bien visibles), avec votre pseudonyme et la salle ou vous avez joué, sur l'un des deux canaux de communication suivants: 
 </p>
 <ul>
   <li>Twitter: Mentionnez @FranceMaimai et ajoutez le hashtag #smashinthru2022 - Tweet liké par notre compte = Score pris en compte !</li>
