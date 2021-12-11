@@ -8,9 +8,18 @@
 		<h2 class="card-title">{{ page.meta.tname }} @ {{ page.meta.tplace }}</h2>
 		<p class="fs-3 text-muted">Date du tournoi: {{ page.meta.tdate }}</p>
 		<br>
+		{% for img in page.meta.timages %}
 		<div class="row">
 			<div class="col">
-				<img src="{{ page.meta.tranking }}" class="img-fluid" alt="Resultats du tournoi">
+				<img src="{{ img }}" class="img-fluid" alt="Resultats du tournoi">
+			</div>
+		</div>
+		<br>
+		<br>
+		{% endfor %}
+		<div class="row">
+			<div class="col">
+				{{ markdown }}
 			</div>
 		</div>
 		<br>
