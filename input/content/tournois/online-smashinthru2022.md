@@ -1,6 +1,6 @@
 ---
 template: tournoi.html
-timages:= ["/rankings/smashinthru2022/1.jpg","/rankings/smashinthru2022/2.jpg","/rankings/smashinthru2022/3.jpg","/rankings/smashinthru2022/4.jpg","/rankings/smashinthru2022/5.jpg", "/rankings/smashinthru2022/6.jpg", "/rankings/smashinthru2022/7.jpg", "/rankings/smashinthru2022/8.jpg", "/rankings/smashinthru2022/9.jpg", "/rankings/smashinthru2022/10.jpg", "/rankings/smashinthru2022/11.png"]
+timages:= ["/rankings/smashinthru2022/1.jpg","/rankings/smashinthru2022/2.jpg","/rankings/smashinthru2022/3.jpg","/rankings/smashinthru2022/5.jpg", "/rankings/smashinthru2022/6.jpg", "/rankings/smashinthru2022/7.jpg", "/rankings/smashinthru2022/8.jpg", "/rankings/smashinthru2022/9.jpg", "/rankings/smashinthru2022/10.jpg", "/rankings/smashinthru2022/11.png"]
 tdate: 13 Décembre 2021 ~ 31 Janvier 2022
 tname: Smashin' Thru 2022
 tplace: Online
