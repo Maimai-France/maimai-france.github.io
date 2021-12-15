@@ -16,7 +16,7 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
 </ul>
 <br>
 <div class="alert alert-info" role="alert">
-  Dernière mise à jour des leaderboards: le 13/12/2021 à 10:12
+  Dernière mise à jour des leaderboards: le 13/12/2021 à 20:30
 </div>
 <br>
 <h3>Song 1 - Everybody's seasonal track</h3>
@@ -34,14 +34,7 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>13/12/2021</td>
-        <td>You ?</td>
-        <td>XX.XXX</td>
-        <td>XX.XX%</td>
-        <td>Somewhere...</td>
-      </tr>
+<tr><th scope='row'>1</th><td>15/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920695877662801990/20211215_161610.jpg'>249800</a></td><td>100.12</td><td>Atom City</td></tr>
     </tbody>
   </table>
 </div>
@@ -62,14 +55,7 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>13/12/2021</td>
-        <td>You ?</td>
-        <td>XX.XXX</td>
-        <td>XX.XX%</td>
-        <td>Somewhere...</td>
-      </tr>
+<tr><th scope='row'>1</th><td>15/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920681048319352872/20211215_151732.jpg'>563400</a></td><td>83.65</td><td>Atom City</td></tr>
     </tbody>
   </table>
 </div>
@@ -90,14 +76,8 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>13/12/2021</td>
-        <td>You ?</td>
-        <td>XX.XXX</td>
-        <td>XX.XX%</td>
-        <td>Somewhere...</td>
-      </tr>
+<tr><th scope='row'>1</th><td>15/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920719009396174858/20211215_170449.jpg'>523100</a></td><td>99.54</td><td>Atom City</td></tr>
+<tr><th scope='row'>2</th><td>15/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920754233521877042/IMG_20211215_191834.jpg'>506500</a></td><td>96.38</td><td>AlphaNef</td></tr>
     </tbody>
   </table>
 </div>
@@ -146,14 +126,10 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>13/12/2021</td>
-        <td>You ?</td>
-        <td>XX.XXX</td>
-        <td>XX.XX%</td>
-        <td>Somewhere...</td>
-      </tr>
+
+<tr><th scope='row'>1</th><td>15/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920753359466684436/IMG_20211215_155714.jpg'>842800</a></td><td>85.04</td><td>AlphaNef</td></tr>
+<tr><th scope='row'>2</th><td>15/12/2021</td><td>02robot</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920747716227772486/IMG_6945.jpg'>831400</a></td><td>83.89</td><td>AlphaNef</td></tr>
+<tr><th scope='row'>3</th><td>15/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920682031128649768/20211215_152116.jpg'>811150</a></td><td>81.85</td><td>Atom City</td></tr>
     </tbody>
   </table>
 </div>
