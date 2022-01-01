@@ -16,8 +16,8 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
 </ul>
 <br>
 <div class="alert alert-info" role="alert">
-  Dernière mise à jour des leaderboards: le 23/12/2021 à 10:30 <br>
-  Joyeuses fêtes <i class='twa twa-christmas-tree'></i> <i class='twa twa-party-popper'></i>
+  Dernière mise à jour des leaderboards: le 02/01/2022 à 00:00 <br>
+  Bonne année ! <i class='twa twa-party-popper'></i>
 </div>
 <br>
 <h3>Song 1 - Everybody's seasonal track</h3>
@@ -60,8 +60,8 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-<tr><th scope='row'>1</th><td>22/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/923221429351252049/20211222_153207.jpg'>589650</a></td><td>87.55 - <i class='twa twa-star'></i> Cleared !</td><td>Atom City</td></tr>
-<tr><th scope='row'>2</th><td>21/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/922914717335449730/IMG_20211221_191312.jpg'>584700</a></td><td>86.81 - <i class='twa twa-star'></i> Cleared !</td><td>AlphaNef</td></tr>
+<tr><th scope='row'>1</th><td>30/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/926246675947847760/IMG_20211230_202636.jpg'>595000</a></td><td>88.34 - <i class='twa twa-star'></i> Cleared !</td><td>AlphaNef</td></tr>
+<tr><th scope='row'>2</th><td>22/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/923221429351252049/20211222_153207.jpg'>589650</a></td><td>87.55 - <i class='twa twa-star'></i> Cleared !</td><td>Atom City</td></tr>
 <tr><th scope='row'>3</th><td>18/12/2021</td><td>Qinmao</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/922438701936701460/IMG_20211218_175633.jpg'>551150</a></td><td>81.83 - <i class='twa twa-star'></i> Cleared !</td><td>GameSpirit</td></tr>
 <tr><th scope='row'>4</th><td>17/12/2021</td><td>FANION!!</td><td><a href='https://pbs.twimg.com/media/FG1VK__XMAYp1Em?format=jpg&name=4096x4096'>550750</a></td><td>81.77 - <i class='twa twa-star'></i> Cleared !</td><td>Atom City</td></tr>
     </tbody>
@@ -135,7 +135,7 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
       </tr>
     </thead>
     <tbody>
-<tr><th scope='row'>1</th><td>15/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920753359466684436/IMG_20211215_155714.jpg'>842800</a></td><td>85.04 - <i class='twa twa-star'></i> Cleared !</td><td>AlphaNef</td></tr>
+<tr><th scope='row'>1</th><td>30/12/2021</td><td>Aeon</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/926246650199015514/IMG_20211230_221806.jpg'>852150</a></td><td>85.98 - <i class='twa twa-star'></i> Cleared !</td><td>AlphaNef</td></tr>
 <tr><th scope='row'>2</th><td>15/12/2021</td><td>02robot</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/920747716227772486/IMG_6945.jpg'>831400</a></td><td>83.89 - <i class='twa twa-star'></i> Cleared !</td><td>AlphaNef</td></tr>
 <tr><th scope='row'>3</th><td>18/12/2021</td><td>Eth22</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/921778334722035792/20211218_155130.jpg'>824100</a></td><td>83.15 - <i class='twa twa-star'></i> Cleared !</td><td>Atom City</td></tr>
 <tr><th scope='row'>4</th><td>18/12/2021</td><td>VINCENT&star;</td><td><a href='https://cdn.discordapp.com/attachments/918993831523921943/921716974617264209/20211218_115336.jpg'>812400</a></td><td>81.97 - <i class='twa twa-star'></i> Cleared !</td><td>GameSpirit</td></tr>
