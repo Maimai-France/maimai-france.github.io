@@ -17,7 +17,6 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
 <br>
 <div class="alert alert-info" role="alert">
   Dernière mise à jour des leaderboards: le 02/01/2022 à 00:00 <br>
-  Bonne année ! <i class='twa twa-party-popper'></i>
 </div>
 <br>
 <h3>Song 1 - Everybody's seasonal track</h3>
