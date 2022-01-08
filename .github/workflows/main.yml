@@ -33,8 +33,7 @@ jobs:
         run: |
           pip install sssimp
           rm -rf docs
-          python -m sssimp
-          mv output docs
+          python -m sssimp docs
           git config --global user.name 'AutoPush'
           git config --global user.email 'vincent38@users.noreply.github.com'
           git commit -am "Processed sssimp gen"
