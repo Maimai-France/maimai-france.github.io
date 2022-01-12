@@ -27,12 +27,14 @@ jobs:
       
       - name: Setup Python
         uses: actions/setup-python@v2.3.1
+      
+      - name: Delete docs before regen
+        run: rm -rf docs
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           pip install sssimp
-          rm -rf docs
           python -m sssimp docs
           git config --global user.name 'AutoPush'
           git config --global user.email 'vincent38@users.noreply.github.com'
