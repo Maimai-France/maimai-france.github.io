@@ -10801,3 +10801,31 @@ licensed under MIT: https://ellekasai.mit-license.org/
     background-image: url("https://twemoji.maxcdn.com/v/latest/svg/1f4a4.svg")
 }
 
+/** bundle:custom.css **/
+.btn-outline-primary {
+    color: #ff7200;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff7200
+}
+
+.btn-outline-secondary {
+    color: #86ca40;
+    background-color: transparent;
+    background-image: none;
+    border-color: #86ca40
+}
+
+.btn-outline-success {
+    color: #ab70da;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ab70da
+}
+
+.alert-warning {
+    color: #ab70da;
+    background-color: #e8d0fc;
+    background-image: none;
+    border-color: #ab70da
+}
