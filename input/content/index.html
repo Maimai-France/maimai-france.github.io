@@ -1,29 +1,29 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Bienvenue sur Maimai France !</h1>
+<h1><img class="rounded-circle" src="/img/maimaifr.jpg" alt="Logo" width="30" height="30"> Bienvenue sur Maimai France !</h1>
 	<p>Ce site est en pleine construction, ne faites pas attention aux cables qui pendent du plafond :D</p>
 
-    <h2>Présentation du jeu</h2>
+    <h2>Présentation du jeu </h2>
     <ul>
-        <li><a href="game/about.html">Qu'est-ce que MaiMai ?</a></li>
-        <li><a href="game/persos.html">Les personnages</a></li>
-        <li><a href="game/musiques.html">Les musiques</a></li>
-        <li><a href="game/online.html">Le mode Online</a></li>
+        <li><a href="game/about.html" class="btn btn-outline-primary">❓ Qu'est-ce que MaiMai ?</a></li>
+        <li><a href="game/persos.html" class="btn btn-outline-primary">📚 Les personnages</a></li>
+        <li><a href="game/musiques.html" class="btn btn-outline-primary">🎵 Les musiques</a></li>
+        <li><a href="game/online.html" class="btn btn-outline-primary">🌍 Le mode Online</a></li>
     </ul>
 
     <h2>Les salles équipées</h2>
     <ul>
-        <li><a href="salles/asn-geekroom.html">Asnières-sur-seine - Geek Room</a></li>
-        <li><a href="salles/lil-atomcity.html">Lille - Atom City</a></li>
-        <li><a href="salles/lyo-gamespirit.html">Lyon - Gamespirit</a></li>
-        <li><a href="salles/mtp-alphanef.html">Montpellier - Alphanef</a></li>
+        <li><a href="salles/asn-geekroom.html" class="btn btn-outline-secondary">🗺️ Asnières-sur-seine - Geek Room</a></li>
+        <li><a href="salles/lil-atomcity.html" class="btn btn-outline-secondary">🗺️ Lille - Atom City</a></li>
+        <li><a href="salles/lyo-gamespirit.html" class="btn btn-outline-secondary">🗺️ Lyon - Gamespirit</a></li>
+        <li><a href="salles/mtp-alphanef.html" class="btn btn-outline-secondary">🗺️ Montpellier - Alphanef</a></li>
     </ul>
 
     <h2>Les derniers tournois</h2>
     <ul>
         {% for page in PAGES if page.meta.template == 'tournoi.html' %}
-            <li><a href="{{ page.href }}">{{ page.meta.tdate }} - {{ page.meta.tname }} @ {{ page.meta.tplace }}</a></li>
+            <li><a href="{{ page.href }}" class="btn btn-outline-success">📍 {{ page.meta.tdate }} - {{ page.meta.tname }} @ {{ page.meta.tplace }}</a></li>
         {% endfor %}
     </ul>
 {% endblock %}
