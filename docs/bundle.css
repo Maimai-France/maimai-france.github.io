@@ -10802,30 +10802,58 @@ licensed under MIT: https://ellekasai.mit-license.org/
 }
 
 /** bundle:custom.css **/
-.btn-outline-primary {
+.btn-outline-primary{
     color: #ff7200;
+    color:hover #ff7200; 
     background-color: transparent;
     background-image: none;
     border-color: #ff7200
 }
 
-.btn-outline-secondary {
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
+    color: #ff7200;
+    color:hover #ff7200; 
+    background-color: #fdecde;
+    background-image: none;
+    border-color: #ff7200
+}
+
+.btn-outline-secondary{
     color: #86ca40;
+    color:hover #86ca40; 
     background-color: transparent;
     background-image: none;
     border-color: #86ca40
 }
 
-.btn-outline-success {
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active {
+    color: #86ca40;
+    color:hover #86ca40; 
+    background-color: #edfddc;
+    background-image: none;
+    border-color: #86ca40
+}
+
+.btn-outline-success{
     color: #ab70da;
+    color:hover #ab70da; 
     background-color: transparent;
     background-image: none;
     border-color: #ab70da
 }
 
-.alert-warning {
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active {
+    color: #ab70da;
+    color:hover #d9baf3; 
+    background-color: transparent;
+    background-image: none;
+    border-color: #ab70da
+}
+
+.alert-warning, .alert-warning:hover, .alert-warning:focus, .alert-warning:active, .alert-warning.active {
     color: #ab70da;
     background-color: #e8d0fc;
+    color:hover #ab70da; 
     background-image: none;
     border-color: #ab70da
 }
