@@ -16,7 +16,7 @@ Envoyez-nous votre score (une photo des deux écrans -l'écran du jeu et celui e
 </ul>
 <br>
 <div class="alert alert-info" role="alert">
-  Dernière mise à jour des leaderboards: le 16/01/2022 à 12:30 <br>
+  Dernière mise à jour des leaderboards: le 23/01/2022 à 10:15 <br>
 </div>
 <br>
 <h3>Song 1 - Everybody's seasonal track</h3>
