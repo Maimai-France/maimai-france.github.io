@@ -10,7 +10,7 @@
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/custom.css" type="text/css">
 
-	<link rel="stylesheet" href="../bundle.css?1645178996.9182837">
+	<link rel="stylesheet" href="../bundle.css?1650404259.284328">
 	<title>Maimai France</title>
 </head>
 
@@ -36,7 +36,55 @@
 		<br>
 <h1>Les musiques</h1>
 
-<p>A venir...</p>
+<span id="stats"></span>
+
+<div id="songlist">
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+
+    $.getJSON("../data/songs.json", data => {
+        let html = ''
+        $.each(data, (k, v) => { 
+            html += `
+            <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://maimai.sega.jp/storage/jacket/`+v.image_url+`" class="img-fluid rounded-start" style="width: 300px; height: 300px" alt="`+v.title+`">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title"><span class="badge bg-secondary">`+v.category+`</span> `+v.title+`</h2>
+                            <h3 class="card-title">`+v.artist+`</h3>
+            `
+            if(v.catcode === "Utage"){
+                // Is a Utage
+                html += `<p>Particularité: `+v.comment
+            } else {
+                // Is not a Utage
+                html += `
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item lvl-item lvl-eas" style="background-color: #3E6AEA">`+v.lev_eas+`</li>
+                        <li class="list-group-item lvl-item lvl-bas" style="background-color: #3CA94A">`+v.lev_bas+`</li>
+                        <li class="list-group-item lvl-item lvl-adv" style="background-color: #F38045">`+v.lev_adv+`</li>
+                        <li class="list-group-item lvl-item lvl-exp" style="background-color: #D22E57">`+v.lev_exp+`</li>
+                        <li class="list-group-item lvl-item lvl-mas" style="background-color: #9634CA">`+v.lev_mas+`</li>`
+                        if(v.lev_remas !== undefined){html += `<li class="list-group-item lvl-item lvl-mas" style="background-color: #E1CAE7">`+v.lev_remas+`</li>`}
+                        html += `</li>
+                    </ul>`
+            }
+            html += `
+                        </div>
+                    </div>
+                </div>
+            </div><br>`
+        })
+        $('#stats').html("Il y a "+data.length+" chansons répertoriées sur les bornes.")
+        $('#songlist').html(html)
+    });
+</script>
 
 		<br>
 		<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
