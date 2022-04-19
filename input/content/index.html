@@ -23,7 +23,7 @@
 
     <h2>Les derniers tournois</h2>
     <ul>
-        {% for page in PAGES if page.meta.template == 'tournoi.html' %}
+        {% for page in pages if page.meta.template == 'tournoi.html' %}
             <li><a href="{{ page.href }}" class="btn btn-outline-success">📍 {{ page.meta.tdate }} - {{ page.meta.tname }} @ {{ page.meta.tplace }}</a></li>
         {% endfor %}
     </ul>
